@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    tools:context=".hospital">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#DCD7DC">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_back"
+                android:padding="15dp"
+                android:onClick="backarrow"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital"
+            android:textColor="#070707"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:textSize="30sp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Seven Star Hospital"
+                android:textColor="#070707"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:fontFamily="serif"
+                android:text="Nandanvan  Nagpur"
+                android:textColor="#070707"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/butt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:onClick="sh1"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info" />
+
+            <TextView
+                android:id="@+id/s1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt1"
+                android:textSize="15sp"
+                android:onClick="sdir1"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sevenstar"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/xavi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Tirpude Hospital"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/xavi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Chalks Colony Kamptee Road"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/but1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi2"
+                android:onClick="th1"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info" />
+
+            <TextView
+                android:id="@+id/s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/but1"
+                android:textSize="15sp"
+                android:onClick="sdir2"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/tirpude"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/xavi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Alexis  Hospital"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/xavi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi3"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Mankapur Nagpur"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/but2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi4"
+                android:onClick="ah1"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info"
+                android:textColor="#070707"/>
+            <TextView
+                android:id="@+id/s3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/but2"
+                android:textSize="15sp"
+                android:onClick="sdir3"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/alexis"
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

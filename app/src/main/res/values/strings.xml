@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Digital Nagpur</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="name">Name</string>
+    <string name="email1">Email</string>
+    <string name="password">password</string>
+    <string name="signin">Signin</string>
+    <string name="email2">Email</string>
+    <string name="passw">Password</string>
+    <string name="login1">login</string>
+    <string name="register_here">Register Here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login2">Login</string>
+    <string name="digital_nagpur">Digital Nagpur</string>
+    <string name="enter_email">Enter email</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="log_out">Log out</string>
+    <string name="school">School</string>
+    <string name="shopping">Shopping</string>
+    <string name="food">Food</string>
+    <string name="hospital">Hospital</string>
+    <string name="hotel">Hotel</string>
+    <string name="emergency">Emergency</string>
+    <string name="let_s_travel_together">let\'s travel together</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="loginn">Login</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="emaill">Email</string>
+    <string name="lettogether">Let\'s Travel together</string>
+    <string name="hospital1">hospital</string>
+    <string name="places_to_visit">Places to visit</string>
+    <string name="bus_stop">bus_stop</string>
+    <string name="user">User</string>
+    <string name="emll">Emaill</string>
+    <string name="more_info"><u>
+        More Info</u></string>
+    <string name="more_info1"><u>
+        More Info</u></string>
+    <string name="more_info3"><u>
+        More Info</u></string>
+
+
+    <string name="underline"><u>Click here for Covid cases</u></string>
+    <string name="vac"><u>Click here for Vaccine Registration on Website</u></string>
+    <string name="vaccin"><u>Click here for Vaccine Registration Through App</u></string>
+    <string name="web"><u> Get more about Covid-19</u></string>
+    <string name="for_directions_click_here"><u>For Directions Click Here</u></string>
+
+    <string name="Pargh">
+        \t\t\t\t Nagpur, popularly known as the ‘Orange City’, is one of the fastest growing metropolis and the third largest city after Mumbai and Pune in Maharashtra. The city is located on the eastern part of the state and is the geographical ‘center’ of India (country’s ‘Zero-Milestone’ is located here).\n\n
+
+\t\t\t Since ages, it has been a city of cultural and political importance. As far as roads, railways and air-flights are concerned, the city is well connected and well served to all the major cities of India.\n\n
+
+\t\t\t There are many aspects to Nagpur city that indicate that the city is growing in terms of business, education, industry, manufacturing and research. As per media reports, Nagpur is already the 11th most competitive city for investment and has got an advantageous geographical location.
+    </string>
+    <string name="todo">TODO</string>
+    <string name="about_district">About District</string>
+
+    <string name="cor">
+        \t\t\t Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+
+ \t Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+
+\t The best way to prevent and slow down transmission is to be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.
+
+\t\tThe COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+    </string>
+    <string name="symptom">
+        \t\t\t People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:
+         \n <li>Fever or chills</li>
+        \n <li>Cough</li>
+        \n <li>Shortness of breath or difficulty breathing</li>
+        \n <li>Fatigue</li>
+        \n <li> Muscle or body aches</li>
+        \n <li>Headache </li>
+        \n <li> Congestion or runny nose</li>
+        \n<li> Nausea or vomiting</li>
+    </string>
+
+    <string name="emer">
+        \t Look for emergency warning signs for COVID-19. If someone is showing any of these signs, seek emergency medical care immediately:
+
+    </string>
+    <string name="emere">
+    \n <li>Trouble breathing</li>
+    \n <li>Persistent pain or pressure in the chest </li>
+    \n <li> New confusion</li>
+    \n <li> Inability to wake or stay awake</li>
+    \n <li>Pale, gray, or blue-colored skin, lips, or nail beds, depending on skin tone</li>
+    </string>
+<string name="Event">
+     Ram Nagar
+
+    \nVidya Vihar
+
+    \n Mekosabagh
+
+    \n Chitnis Park
+</string>
+
+</resources>

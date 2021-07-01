@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    tools:context=".emergency">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#DCD7DC">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backarr2"
+                android:padding="15dp"
+                android:src="@drawable/arrow_back" />
+
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/Emer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Numbers"
+            android:textColor="#070707"
+
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/Emer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Police"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:textColor="#070707"
+
+            android:layout_below="@+id/Emer1"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="16sp"
+
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/Emer2"/>
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            >
+
+        <TextView
+            android:id="@+id/help1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Child Helpline"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/help2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#070707"
+            android:text="1098"
+            android:textStyle="bold"
+
+            android:layout_below="@+id/help1"
+            android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            >
+
+        <TextView
+            android:id="@+id/am1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambulance"
+            android:textStyle="bold"
+            android:textColor="#070707"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/am2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="108"
+            android:textColor="#070707"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+
+            android:layout_below="@+id/am1"
+            android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            >
+
+            <TextView
+                android:id="@+id/wo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women Helpline"
+                android:textColor="#070707"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/wo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1091"
+                android:layout_marginTop="3dp"
+                android:textColor="#070707"
+                android:textStyle="bold"
+                android:layout_below="@+id/wo1"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

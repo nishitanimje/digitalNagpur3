@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <group android:checkableBehavior="single">
+     <item
+         android:id="@+id/home"
+         android:title="Home"
+         android:icon="@drawable/home"/>
+ </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logot"
+                    android:title="@string/logout" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/feedback"
+                    android:title="Feedback"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="Information">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_abt_ngp"
+                    android:icon="@drawable/info_24"
+                    android:title="About Nagpur"/>
+                <item
+                    android:id="@+id/nav_case"
+                    android:icon="@drawable/info_24"
+                    android:title="Covid-19" />
+                <item
+                    android:id="@+id/event"
+                    android:icon="@drawable/info_24"
+                    android:title="Events In Nagpur"/>
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
+
+

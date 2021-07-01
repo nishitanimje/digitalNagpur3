@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    tools:context=".Hotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#DCD7DC">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backar"
+                android:padding="15dp"
+                android:src="@drawable/arrow_back" />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Hotel"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/xavi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Radisson Blu Hotel"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/xavi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="7,Wardha Rd,Samarth Nagar"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/but1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi2"
+                android:textSize="15sp"
+                android:onClick="radisson"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info" />
+            <TextView
+                android:id="@+id/but11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/but1"
+                android:textSize="15sp"
+                android:onClick="dire"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/raddison"
+
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/bi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Tuli Imperial "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/bi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi1"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Farm Land Central BazarRoad"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/bi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi3"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="New Ramdaspeth "
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/butt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi4"
+                android:textSize="15sp"
+                android:onClick="tuli"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info1" />
+            <TextView
+                android:id="@+id/hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt1"
+                android:textSize="15sp"
+                android:onClick="dire12"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/tuli"
+
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/bi5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Regenta Central "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bi6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi5"
+                android:fontFamily="serif"
+                android:text=" Hotel"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bi7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi6"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Great Nag Road Nagpur"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/butt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi7"
+                android:textSize="15sp"
+                android:onClick="regenta"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info3" />
+
+            <TextView
+                android:id="@+id/hot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/butt2"
+                android:textSize="15sp"
+                android:onClick="directi"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/rejenta"
+
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    tools:context=".VisitingPlaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#DCD7DC">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backarrow"
+                android:padding="15dp"
+                android:src="@drawable/arrow_back" />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:textColor="#070707"
+            android:text="Visiting Places"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/xavi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Khindsi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/xavi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi"
+                android:fontFamily="serif"
+                android:text="Ramtek"
+                android:textColor="#070707"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/but1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xavi2"
+                android:background="@drawable/transparentbutton"
+                android:onClick="khindi"
+                android:text="@string/more_info"
+                android:textColor="#070707"
+                android:textSize="15sp" />
+            <TextView
+            android:id="@+id/ki1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/but1"
+            android:textSize="15sp"
+            android:onClick="k1"
+                android:textColor="#070707"
+            android:background="@drawable/transparentbutton"
+            android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/khindsi"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/bi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Dragon Place "
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/bi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi1"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Dadasaheb kumbhare parisar"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/bi33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi3"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="New Kamptee"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/butt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi33"
+                android:textSize="15sp"
+                android:onClick="dragon"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info1" />
+            <TextView
+            android:id="@+id/dra1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/butt1"
+            android:textSize="15sp"
+            android:onClick="dra"
+                android:textColor="#070707"
+            android:background="@drawable/transparentbutton"
+            android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/dragon"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:id="@+id/bi5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Futala Lake "
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/bi6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi5"
+                android:fontFamily="serif"
+                android:textColor="#070707"
+                android:text="Vayusena Nagar Nagpur"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/butt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bi6"
+                android:textSize="15sp"
+                android:onClick="futala"
+                android:textColor="#070707"
+                android:background="@drawable/transparentbutton"
+                android:text="@string/more_info3" />
+            <TextView
+            android:id="@+id/fu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/butt2"
+            android:textSize="15sp"
+            android:onClick="fu"
+                android:textColor="#070707"
+            android:background="@drawable/transparentbutton"
+            android:text="@string/for_directions_click_here" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/futala"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

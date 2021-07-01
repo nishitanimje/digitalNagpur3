@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Complain"
+    android:background="#D1D1D1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#DCD7DC">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:onClick="backarr"
+            android:padding="15dp"
+            android:src="@drawable/arrow_back"
+            />
+
+
+
+
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="Complain"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:onClick="water">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water Complain"
+                android:paddingLeft="10dp"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="30dp"
+                android:paddingRight="30dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/waste_water" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:onClick="electric">
+            <TextView
+                android:id="@+id/com1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electricity"
+                android:paddingLeft="10dp"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="30dp"
+                android:paddingRight="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complain"
+                android:layout_below="@+id/com1"
+                android:paddingLeft="10dp"
+                android:textColor="#070707"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingStart="10dp"
+                android:paddingEnd="30dp"
+                android:paddingRight="30dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circuit" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

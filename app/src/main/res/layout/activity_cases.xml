@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D1D1D1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cases">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#DCD7DC">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:onClick="backarrow"
+            android:padding="15dp"
+            android:src="@drawable/arrow_back" />
+
+    </RelativeLayout>
+             <ImageView
+                 android:id="@+id/imgc"
+                 android:layout_width="wrap_content"
+                 android:layout_height="150dp"
+android:layout_marginTop="7dp"
+                 android:src="@drawable/copic"/>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Corona Virus ?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#60142E"/>
+    <TextView
+        android:id="@+id/cor2"
+        android:layout_below="@+id/cor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:justificationMode="inter_word"
+        android:text="@string/cor"
+        android:textColor="#070707"/>
+
+    <TextView
+        android:id="@+id/cor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptoms :-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/cor2"
+        android:textColor="#19245E"/>
+
+    <TextView
+        android:id="@+id/cor4"
+        android:layout_below="@+id/cor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="@string/symptom"
+        android:textColor="#070707"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/cor5"
+        android:layout_below="@+id/cor4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emer"
+        android:justificationMode="inter_word"
+        android:textColor="#020D4A"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_below="@+id/cor5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emere"
+        android:textColor="#070707"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_below="@+id/cor5"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/coronapre"
+        android:layout_marginTop="160dp"
+
+        />
+
+
+
+
+</RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="News:-"
+            android:textColor="#052B4A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/T3"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/underline"
+                android:textColor="#070707"
+                android:onClick="cases"
+                android:layout_below="@+id/l2"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/vacimg"
+                android:layout_width="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_height="170dp"
+                android:src="@drawable/vaccine"/>
+
+            <TextView
+                android:id="@+id/vacc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Yourself For Vaccination From the following link "
+                android:textSize="17sp"
+                android:textColor="#571703"
+                android:layout_below="@+id/vacimg"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/T4"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/vac"
+
+                android:onClick="vaccine"
+                android:textColor="#070707"
+                android:layout_below="@+id/vacc2"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/T5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/vaccin"
+
+                android:onClick="vaccination"
+                android:textColor="#070707"
+                android:layout_below="@+id/T4"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_weight="1"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="web"
+                android:text="@string/web"
+                android:textColor="#600927"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                android:layout_weight="1"/>
+        </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <TextView
+                    android:id="@+id/l1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="12dp"
+                    android:text="Helpline Numbers:-"
+                    android:textSize="15sp"
+                    android:textColor="#460D50"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/T1"
+                    android:layout_below="@+id/l1"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="0712-2567021"
+                    android:textColor="#070707"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/T2"
+                    android:layout_below="@+id/T1"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="0712-2551866"
+                    android:textColor="#070707"
+                    android:textSize="15sp"/>
+
+
+            </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

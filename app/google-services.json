@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291104515543",
+    "firebase_url": "https://digital-nagpur.firebaseio.com",
+    "project_id": "digital-nagpur",
+    "storage_bucket": "digital-nagpur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291104515543:android:f474c65e82f31c7f3b5792",
+        "android_client_info": {
+          "package_name": "com.example.digitalnagpur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291104515543-akn5g6pvti8catp2m9pkr5etujqtn0nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4yQYWDlnGKKN69NJMNgVZK1268Q4bnHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291104515543-akn5g6pvti8catp2m9pkr5etujqtn0nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
